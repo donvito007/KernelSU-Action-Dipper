@@ -1,9 +1,9 @@
-# KernelSU Action
-使用 Github Actions 构建集成 [KernelSU](https://github.com/tiann/KernelSU) 的内核
+KernelSU Action
+Use Github Actions to build a kernel that integrates with KernelSU
 
-每天监测 KernelSU 的新版本，如果有就自动构建新的内核
+Monitor new versions of KernelSU daily and automatically build new kernels if available
 
-## 使用说明
-本 [workflow](.github/workflows/main.yml) 用于构建 **小米8 (dipper)** 的 **Pixel Experience** 内核
+Instructions for use
+This workflow is used to build the Pixel Experience kernel of the Xiaomi Mi 8 (dipper).
 
-如需编译其他内核请修改 [workflow](.github/workflows/main.yml) 的 env 部分
+To compile other kernels, modify the env portion of the workflow
